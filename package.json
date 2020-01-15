@@ -1,6 +1,6 @@
 {
   "name": "vue-dns-record-validation",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Validate your DNS record values before sending them to your backend.",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SjamonDaal/vue-dns-record-validation"
+    "url": "git+https://github.com/SjamonDaal/vue-dns-record-validation.git"
   },
-  "bugs": {
-    "url": "https://github.com/SjamonDaal/vue-dns-record-validation/issues"
-  },
-  "homepage": "https://github.com/SjamonDaal/vue-dns-record-validation#readme",
   "keywords": [
     "vue",
     "vuejs",
@@ -22,5 +18,9 @@
     "validation"
   ],
   "author": "SDHD Hosts <support@sdhd.nl>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SjamonDaal/vue-dns-record-validation/issues"
+  },
+  "homepage": "https://github.com/SjamonDaal/vue-dns-record-validation#readme"
 }
