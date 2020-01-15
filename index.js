@@ -1,9 +1,8 @@
-function record(record, type, value) {
-  return true
-}
+var record = require('./record');
+var hostname = require('./hostname');
 
-function hostname(hostname) {
-  return false
-}
+var dnsValidate = hostname;
+dnsValidate.record = record;
+dnsValidate.hostname = hostname;
 
-module.exports = DNSv;
+module.exports = dnsValidate;
