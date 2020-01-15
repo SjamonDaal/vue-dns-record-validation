@@ -4,9 +4,8 @@
 This module is build to easily validate DNS records before sending them to your backend systems.
 
 #### Supported record types
-- [x] = Implemented.
-- [ ] = To be implemented.
-
+Checked = Implemented.<br>
+Unchecked = To be implemented.
 
 - [ ] A
 - [ ] AAAA
