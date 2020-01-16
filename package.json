@@ -1,6 +1,6 @@
 {
   "name": "vue-dns-record-validation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate your DNS record values before sending them to your backend.",
   "main": "index.js",
   "scripts": {
