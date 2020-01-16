@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.sdhd.nl/" alt="Secure & Reliable Hosting"><img src="https://www.sdhd.nl/assets/img/logo.png" width="245px;"></a></p>
+<p align="center"><a href="https://www.sdhd.nl/link.php?id=29" alt="Secure & Reliable Hosting"><img src="https://www.sdhd.nl/assets/img/logo.png" width="245px;"></a></p>
 
 ## Vue DNS record validation
 This module is build to easily validate DNS records before sending them to your backend systems.
