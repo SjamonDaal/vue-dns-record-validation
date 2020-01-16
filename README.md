@@ -1,4 +1,6 @@
-<p align="center"><img src="https://www.sdhd.nl/assets/img/logo.png" width="245px;"></p>
+<p align="center"><a href="https://www.sdhd.nl/link.php?id=29" alt="Secure & Reliable Hosting"><img src="https://www.sdhd.nl/assets/img/logo.png" width="245px;"></a></p>
+
+[![NPM version][npm-image]][npm-url]
 
 ## Vue DNS record validation
 This module is build to easily validate DNS records before sending them to your backend systems.
@@ -23,3 +25,6 @@ If you discover a security vulnerability within vue-dns-record-validation, pleas
 
 ## License
 The vue-dns-record-validation is open-sourced module. But all rights remain reserved for SDHD Hosts.
+
+[npm-image]: https://img.shields.io/npm/v/vue-dns-record-validation.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/vue-dns-record-validation
