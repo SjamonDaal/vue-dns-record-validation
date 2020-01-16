@@ -1,5 +1,5 @@
 {
-  "name": "@sdhdhosts/vue-dns-record-validation",
+  "name": "vue-dns-record-validation",
   "version": "1.0.0",
   "description": "Validate your DNS record values before sending them to your backend.",
   "main": "index.js",
