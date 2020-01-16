@@ -1,8 +1,16 @@
-var record = require('./record');
-var hostname = require('./hostname');
+'use strict'
 
-var dnsValidate = hostname;
-dnsValidate.record = record;
-dnsValidate.hostname = hostname;
+const debug = require('debug')('vue-dns-record-validation')
 
-module.exports = dnsValidate;
+module.exports = {
+  record,
+  hostname
+}
+
+function record(record, type, value) {
+  return false
+}
+
+function hostname(hostname) {
+  return true
+}
