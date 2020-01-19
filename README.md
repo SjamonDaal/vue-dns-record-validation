@@ -18,7 +18,23 @@ Unchecked = To be implemented.
 - [ ] TXT
 
 ## Documentation
-Comming soon...
+Example:
+```javascript
+<script>
+  import dnsValidate from 'vue-dns-record-validation';
+  export default {
+    ..
+  },
+  methods: {
+    validateRecord() {
+      return dnsValidate.record('www', 'A', '172.0.0.1')
+    },
+    validateHostname() {
+      return dnsValidate.domainName('sdhd.nl')
+    }
+  }
+</script>
+```
 
 ## Security Vulnerabilities
 If you discover a security vulnerability within vue-dns-record-validation, please send an e-mail to SDHD Hosts via [support@sdhd.nl](mailto:support@sdhd.nl). All security vulnerabilities will be promptly addressed.
